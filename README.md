@@ -1,2 +1,4 @@
 # EastToCmd
 使用命令行播放badapple
+依靠cv2截取每一帧，然后依据读取黑色的阈值来判断填充字符还是空格
+注意：需要在EastToCmd.py第四行中添加badapple.mp4的路径
