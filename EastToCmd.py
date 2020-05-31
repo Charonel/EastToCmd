@@ -1,7 +1,7 @@
 #! encoding: UTF-8
 import os
 import cv2
-video_full_path = "~/badapple.mp4"
+video_full_path = "http://47.99.209.85:50002/badapple.mp4"
 cap = cv2.VideoCapture(video_full_path)
 frame_count = 1
 success = True
